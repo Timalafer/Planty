@@ -1,0 +1,10 @@
+.elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+    padding: 0;
+}
+
+/* Page d'accueil personnalisée */
+.home-page {
+    width: 1440px;
+    height: 2910px;
+    /* ... autres styles spécifiques de la page d'accueil ... */
+}
