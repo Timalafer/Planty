@@ -98,9 +98,7 @@ body:not(.overlay-header) .primary-menu>li>.icon,
     color: #000000 !important;
 }
 
-.menu-item-48 {
-    color: #FFF !important;
-}
+
 
 
 /* button */
@@ -239,6 +237,27 @@ body:not(.overlay-header) .primary-menu>li>.icon,
     line-height: normal;
 }
 
+/* Reviwes*/
+
+#image-fatiha {
+
+    background-image: url("../images/Fatiha.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 80px;
+}
+
+.column {
+    display: flex;
+    flex-direction: row;
+    width: 33%;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: row;
+}
 
 /* Média query pour les téléphones mobiles */
 @media (max-width: 768px) {
