@@ -238,65 +238,6 @@ body:not(.overlay-header) .primary-menu>li>.icon,
     line-height: normal
 }
 
-/* Reviews */
-
-.reviews {
-    display: flex;
-    flex-direction: row;
-}
-
-.column {
-    display: flex;
-    flex-direction: row;
-    width: 33%;
-    padding: 20px;
-
-}
-
-
-#image-fatiha {
-    background-image: url("../images/Fatiha.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 200px;
-    height: auto;
-}
-
-
-#image-Vero {
-    background-image: url("../images/Vero.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 200px;
-    height: auto;
-}
-
-#image-Marc {
-    background-image: url("../images/Marc.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 200px;
-    height: auto;
-}
-
-.card-title {
-    color: #3B8E46;
-    font-family: Syne;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-
-.review-txt {
-    color: #000;
-    font-family: Syne;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
 
 /* Média query pour les téléphones mobiles */
 @media (max-width: 768px) {
