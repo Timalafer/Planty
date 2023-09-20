@@ -189,7 +189,7 @@ body:not(.overlay-header) .primary-menu>li>.icon,
 .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 
@@ -220,6 +220,7 @@ body:not(.overlay-header) .primary-menu>li>.icon,
 #FRAMBOISE {
     background-image: url("../images/framboise.png");
     background-size: cover;
+
 }
 
 #CITRON {
@@ -233,41 +234,79 @@ body:not(.overlay-header) .primary-menu>li>.icon,
     font-family: Syne;
     font-size: 48px;
     font-style: normal;
-    font-weight: 800;
-    line-height: normal;
+    font-weight: 900;
+    line-height: normal
 }
 
-/* Reviwes*/
-
-#image-fatiha {
-
-    background-image: url("../images/Fatiha.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 200px;
-    height: 80px;
-}
-
-.column {
-    display: flex;
-    flex-direction: row;
-    width: 33%;
-}
+/* Reviews */
 
 .reviews {
     display: flex;
     flex-direction: row;
 }
 
+.column {
+    display: flex;
+    flex-direction: row;
+    width: 33%;
+    padding: 20px;
+
+}
+
+
+#image-fatiha {
+    background-image: url("../images/Fatiha.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: auto;
+}
+
+
+#image-Vero {
+    background-image: url("../images/Vero.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: auto;
+}
+
+#image-Marc {
+    background-image: url("../images/Marc.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: auto;
+}
+
+.card-title {
+    color: #3B8E46;
+    font-family: Syne;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.review-txt {
+    color: #000;
+    font-family: Syne;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
 /* Média query pour les téléphones mobiles */
 @media (max-width: 768px) {
     .elementor-41 .elementor-element.elementor-element-0cdb2e3 {
-        font-size: 36px;
+        font-size: 38px;
         top: 212px;
     }
 
     .container div {
-        width: 90%;
+        width: 100%;
     }
 }
 
