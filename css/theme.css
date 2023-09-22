@@ -86,6 +86,54 @@ body:not(.overlay-header) .primary-menu>li>.icon,
     color: #000 !important;
 }
 
+/* Galerie */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    height: 250px;
+    margin-bottom: 40px;
+}
+
+
+#Fraise {
+    background-image: url("../images/fraise.png");
+    background-size: cover;
+}
+
+#PAMPLEMOUSSE {
+    background-image: url("../images/pamplemousse.png");
+    background-size: cover;
+}
+
+#FRAMBOISE {
+    background-image: url("../images/framboise.png");
+    background-size: cover;
+}
+
+#CITRON {
+    background-image: url("../images/Citron.png");
+    background-size: cover;
+}
+
+.container p {
+    color: #FFF;
+    text-align: center;
+    font-family: "Syne", sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: normal;
+}
+
+
 /* Bouton */
 
 .ligne {
@@ -165,52 +213,6 @@ body:not(.overlay-header) .primary-menu>li>.icon,
     text-align: center;
 }
 
-/* Galerie */
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.container div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 35%;
-    height: 250px;
-    margin-bottom: 40px;
-}
-
-
-#Fraise {
-    background-image: url("../images/fraise.png");
-    background-size: cover;
-}
-
-#PAMPLEMOUSSE {
-    background-image: url("../images/pamplemousse.png");
-    background-size: cover;
-}
-
-#FRAMBOISE {
-    background-image: url("../images/framboise.png");
-    background-size: cover;
-}
-
-#CITRON {
-    background-image: url("../images/Citron.png");
-    background-size: cover;
-}
-
-.container p {
-    color: #FFF;
-    text-align: center;
-    font-family: "Syne", sans-serif;
-    font-size: 48px;
-    font-weight: 900;
-    line-height: normal;
-}
 
 /* Media query pour les téléphones mobiles */
 
@@ -230,4 +232,5 @@ body:not(.overlay-header) .primary-menu>li>.icon,
         font-size: 24px;
         top: 112px;
     }
+
 }
